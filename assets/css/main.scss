@@ -1,0 +1,16 @@
+---
+---
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(210, 50%, 50%);
+  color: white;
+  font-family: 'Verdana';
+}
+
+@import "default.scss";
+@import "navigation.scss";
+@import "footer.scss";
+@import "home.scss";
