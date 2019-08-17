@@ -1,12 +1,20 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     {% include head.html %}
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} - Nicholas Hadley</title>
   </head>
   <body>
     {% include navigation.html %}
     <main class="wrapper">
+      {% if page.title %}
+      <h1 class="text-center" style="font-size: 3rem">{{ page.title }}</h1>
+      {% endif %}
+
       {{ content }}
     </main>
     {% include footer.html %}

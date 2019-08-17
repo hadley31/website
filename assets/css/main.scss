@@ -5,12 +5,49 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(210, 50%, 50%);
+  background-color: hsl(203, 44%, 34%);
   color: white;
-  font-family: 'Verdana';
+  font-family: "Verdana";
+}
+
+// Device Sizes
+$desktop: 1200px;
+$laptop: 1024px;
+$tablet-big: 920px;
+$tablet: 700px;
+$tablet-small: 620px;
+$mobile: 550px;
+
+\:root {
+  font-size: 10px;
+
+  @media (max-width: $desktop) {
+    font-size: 9px;
+  }
+
+  @media (max-width: $laptop) {
+    font-size: 8px;
+  }
+
+  @media (max-width: $tablet-big) {
+    font-size: 9px;
+  }
+
+  @media (max-width: $tablet) {
+    font-size: 8px;
+  }
+
+  @media (max-width: $tablet-small) {
+    font-size: 10px;
+  }
+}
+
+.text-center{
+  text-align: center;
 }
 
 @import "default.scss";
 @import "navigation.scss";
 @import "footer.scss";
 @import "home.scss";
+@import "resume.scss";

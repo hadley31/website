@@ -23,3 +23,6 @@ sass: { sass_dir: "assets/css" }
 # --- Jekyll Locations ---
 layouts_dir: _jekyll/layouts
 includes_dir: _jekyll/includes
+
+collections:
+  projects:          { output: true }

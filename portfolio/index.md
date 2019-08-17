@@ -3,7 +3,4 @@ title: Portfolio
 layout: default
 ---
 
-<h1>My Portfolio</h1>
-<div>
-    
-</div>
+<p class="text-center">Under development. Check back Soon!</p>

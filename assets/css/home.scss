@@ -1,18 +1,21 @@
 .intro {
-  padding-top: 10rem;
   display: flex;
   justify-content: center;
 
   p {
+    text-align: left;
     font-size: 1.2rem;
     width: 400px;
     margin: 50px 0px;
+    min-width: 400px;
   }
 
   .portrait {
     display: block;
     max-width: 239px;
     max-height: 239px;
+    min-width: 239px;
+    min-height: 239px;
     width: 100%;
     height: auto;
     border-radius: 15px;
