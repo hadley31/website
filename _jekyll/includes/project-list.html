@@ -1,0 +1,9 @@
+<div class="project-list">
+  <ul class="projects">
+    {% for project in site.projects %}
+    <li>
+      {% include project-card.html project=project %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>

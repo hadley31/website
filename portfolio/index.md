@@ -1,6 +1,4 @@
 ---
 title: Portfolio
-layout: default
+layout: project-index
 ---
-
-<p class="text-center">Under development. Check back Soon!</p>

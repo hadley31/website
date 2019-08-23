@@ -1,0 +1,30 @@
+.project-list {
+  .projects {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    li {
+      list-style-type: none;
+      display: flex;
+      .project-card {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 500px;
+        height: 700px;
+
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

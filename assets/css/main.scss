@@ -5,7 +5,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(203, 44%, 34%);
+  background-color: #6a7a8f;
   color: white;
   font-family: "Verdana";
 }
@@ -51,3 +51,4 @@ $mobile: 550px;
 @import "footer.scss";
 @import "home.scss";
 @import "resume.scss";
+@import "project-list.scss";

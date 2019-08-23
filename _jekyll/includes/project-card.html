@@ -1,3 +1,11 @@
----
-
----
+<div class="project-card">
+  <div class="section">
+    <img src="{{ include.project.image_url | relative_url }}" alt="" />
+  </div>
+  <div class="section">
+    {{ include.project.title }}
+  </div>
+  <div class="section">
+    {{ include.project.excerpt }}
+  </div>
+</div>
