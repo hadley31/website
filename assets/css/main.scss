@@ -1,13 +1,19 @@
 ---
 ---
 
+$primary-color: #6a7a8f;
+$secondary-color: #031926;
+$default-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$text-color: white;
+
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #6a7a8f;
-  color: white;
-  font-family: "Verdana";
+  background-color: $primary-color;
+  color: $text-color;
+  font-family: $default-font;
 }
 
 // Device Sizes
@@ -42,7 +48,7 @@ $mobile: 550px;
   }
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
@@ -52,3 +58,4 @@ $mobile: 550px;
 @import "home.scss";
 @import "resume.scss";
 @import "project-list.scss";
+@import "project-card.scss";

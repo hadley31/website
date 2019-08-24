@@ -3,19 +3,21 @@
   bottom: 0;
   width: 100%;
   z-index: 100;
+  color: #888;
 
   footer {
     width: 100%;
     height: 10rem;
     font-size: 20px;
     overflow: hidden;
-    background: rgb(40, 40, 53);
+    background: $secondary-color;
+    text-align: center;
 
     .links {
       list-style-type: none;
       margin: 0;
       padding: 0;
-      height: 100%;
+      height: 50%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -29,10 +31,10 @@
         list-style-type: none;
         margin: 0;
         padding: 0 20px;
-        color: #888;
         border: 1px solid transparent;
         border-radius: 2px;
         text-decoration: none;
+        color: #888;
         transition: color 0.2s ease-out;
         &:hover {
           color: #fff;
