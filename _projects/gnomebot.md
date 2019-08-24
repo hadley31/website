@@ -1,6 +1,7 @@
 ---
 title: Gnomebot
-image_url: ./assets/images/gnomebot.png
+image: ./assets/images/discord.jpg
+source: https://www.github.com/hadley31/gnomebot
 ---
 
-Gnomebot is a discord bot I developed in my sparetime. Read more about it on its {source page}.
+Gnomebot is a discord bot I developed in my sparetime using Node.js.

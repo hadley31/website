@@ -1,5 +1,0 @@
----
-title: Gnomebot
-layout: project
----
-
