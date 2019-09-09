@@ -34,10 +34,10 @@
         border: 1px solid transparent;
         border-radius: 2px;
         text-decoration: none;
-        color: #888;
+        color: $nav-text-color;
         transition: color 0.2s ease-out;
         &:hover {
-          color: #fff;
+          color: $text-color;
         }
       }
     }
