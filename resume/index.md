@@ -25,8 +25,7 @@ layout: default
     <li>
       <b>Software</b>
       <ul>
-        <li>Visual Studio Code</li>
-        <li>Visual Studio Community</li>
+        <li>Visual Studio / VS Code</li>
         <li>Eclipse</li>
         <li>IntelliJ IDEA</li>
         <li>Android Studio</li>
@@ -37,7 +36,7 @@ layout: default
     <li>
       <b>Tools and Services</b>
       <ul>
-        <li>Git/Github/Gitlab</li>
+        <li>Git / Github / Gitlab</li>
         <li>npm</li>
         <li>pip</li>
       </ul>
@@ -47,7 +46,7 @@ layout: default
   <p><b>General Dynamics Mission Systems</b> Annapolis Junction, MD</p>
   <p><i>Software Engineering Internship</i> June 2019 - August 2019</p>
   <ul>
-    <li>Worked on a small team developing a machine learning model capible of finding patterns in locations of individuals</li>
+    <li>Worked on a small team developing a machine learning model capible of finding patterns in locations of certain individuals</li>
     <li></li>
   </ul>
   <h3>Campus Involvement</h3>
@@ -58,6 +57,7 @@ layout: default
     <li>Hone teamwork skills by collaborating with a group to design and develop a game from scratch in a single semester</li>
     <li>Communicate with team members to ensure deadlines are met</li>
   </ul>
+  <br>
   <p><b>Association for Computing Machinery</b> Statesboro, GA</p>
   <p><i>Member</i> August 2018 - Present</p>
   <ul>

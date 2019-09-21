@@ -3,5 +3,10 @@ layout: default
 ---
 
 <div>
-  {% include project-list.html %}
+  {% assign significantProjects = site.projects | where_exp 'significance', 'significance > 5' %}
+  {% assign lessSignificantProjects = site.projects | where_exp 'significance', 'significance <= 5' %}
+  <h1>Significant Projects</h1>
+  {% include project-list.html projects=significantProjects %}
+  <h1>Smaller Projects</h1>
+  {% include project-list.html projects=lessSignificantProjects %}
 </div>

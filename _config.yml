@@ -3,11 +3,16 @@
 # The site's title.
 title: Nicholas Hadley
 
-# Location from where the site will be served (repository name for GitHub Pages).
 baseurl: /
 
-# Name of the GitHub repository (used for generating links to GitHub).
 repository: hadley31/website
+
+
+links:
+  github: https://github.com/hadley31
+  linkedin: https://www.linkedin.com/in/nicholas-hadley-76a94116a/
+
+
 
 # --- Build Settings ---
 
@@ -25,4 +30,12 @@ layouts_dir: _jekyll/layouts
 includes_dir: _jekyll/includes
 
 collections:
-  projects:          { output: true }
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
