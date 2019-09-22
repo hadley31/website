@@ -2,7 +2,7 @@
 title: Nocturnal Forest
 image: ./assets/images/nocturnalforest.png
 source: https://www.github.com/hadley31/nocturnal-forest
-scale: 5
+significance: 5
 technologies:
   - name: Unity
   - name: C#
