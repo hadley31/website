@@ -1,5 +1,6 @@
 .project-list {
   justify-content: center;
+
   .projects {
     text-align: left;
     display: flex;
@@ -7,6 +8,7 @@
     justify-content: center;
     margin: 0;
     padding: 0;
+
     li {
       list-style-type: none;
       display: flex;

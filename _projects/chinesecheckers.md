@@ -6,6 +6,8 @@ significance: 3
 technologies:
   - name: Javascript
   - name: p5.js
+tags:
+  - name: Web
 ---
 
 A simple chinese checkers game for the browser.

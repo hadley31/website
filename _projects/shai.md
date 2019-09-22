@@ -1,8 +1,8 @@
 ---
-title: Super Hexagon AI
+title: Project Shai
 image: ./assets/images/superhexagon.jpg
-source: https://www.github.com/hadley31/super-hexagon-ai
-significance: 7
+source: https://www.github.com/hadley31/project-shai
+significance: 6
 technologies:
   - name: Python
   - name: Tensorflow
