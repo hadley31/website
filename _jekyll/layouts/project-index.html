@@ -2,6 +2,11 @@
 layout: default
 ---
 
-<div>
-  {% include project-list.html %}
+<div style="text-align: center">
+  {% assign significantProjects = site.projects | where_exp: 'project', 'project.significance > 5' | sort: 'significance' | reverse %}
+  {% assign lessSignificantProjects = site.projects | where_exp: 'project', 'project.significance <= 5' | sort: 'significance' | reverse %}
+  <h1>Significant Projects</h1>
+  {% include project-list.html projects=significantProjects %}
+  <h1>Smaller Projects</h1>
+  {% include project-list.html projects=lessSignificantProjects %}
 </div>

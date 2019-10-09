@@ -1,6 +1,6 @@
 <div class="project-list">
   <ul class="projects">
-    {% for project in site.projects %}
+    {% for project in include.projects %}
     <li>
       {% include project-card.html project=project %}
     </li>

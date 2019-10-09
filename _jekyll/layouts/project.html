@@ -3,5 +3,15 @@ layout: default
 ---
 
 <div>
-    
+    <img src="{{ page.image | relative_url }}" alt="">
+    {{ content }}
+
+    {% if page.technologies %}
+    <h3>Technologies</h3>
+    <ul>
+        {% for t in page.technologies %}
+        <li>{{ t.name }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
 </div>
