@@ -3,7 +3,9 @@ layout: default
 ---
 
 <div>
-    <img src="{{ page.image | relative_url }}" alt="">
+    <div class="project-banner" style="background-image: url({{ page.image | relative_url }})">
+        <div class="project-banner-overlay"></div>
+    </div>
     {{ content }}
 
     {% if page.technologies %}
