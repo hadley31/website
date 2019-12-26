@@ -5,6 +5,26 @@
     background-position: center;
     background-size: cover;
   }
+
+  .project-banner {
+    position: relative;
+    width: 100%;
+    height: 15rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    filter: blur(2px);
+  
+    .project-banner-overlay {
+      background-color: rgba(182, 182, 182, 0.2);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
   .project-source-button {
     @include button;
     //background: #4e9caf;
@@ -12,24 +32,5 @@
   .project-play-button {
     @include button;
     //background-color: #4e9caf;
-  }
-}
-.project-banner {
-  position: relative;
-  width: 100%;
-  height: 15rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-clip: border-box;
-  filter: blur(2px);
-
-  .project-banner-overlay {
-    background-color: rgba(182, 182, 182, 0.2);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
   }
 }
