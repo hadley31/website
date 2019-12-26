@@ -1,0 +1,16 @@
+.project {
+  .project-image {
+    width: 500px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+  }
+  .project-source-button {
+    @include button;
+    //background: #4e9caf;
+  }
+  .project-play-button {
+    @include button;
+    //background-color: #4e9caf;
+  }
+}

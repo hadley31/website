@@ -2,16 +2,20 @@
 layout: default
 ---
 
-<div>
-    <img src="{{ page.image | relative_url }}" alt="">
-    {{ content }}
+<div class="project">
+  <div class="project-image" style="background-image: url({{ page.image | relative_url }})"></div>
+  {{ content }}
 
-    {% if page.technologies %}
-    <h3>Technologies</h3>
-    <ul>
-        {% for t in page.technologies %}
-        <li>{{ t.name }}</li>
-        {% endfor %}
-    </ul>
-    {% endif %}
+  {% if page.technologies %}
+  <h3>Technologies</h3>
+  <ul>
+    {% for t in page.technologies %}
+    <li>{{ t.name }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  <a class="project-source-button" href="{{ page.source }}">View Source</a>
+  {% if page.play_now %}
+  <a class="project-play-button" href="{{ page.play_now }}">Play Now!</a>
+  {% endif %}
 </div>

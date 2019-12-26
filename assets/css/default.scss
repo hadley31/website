@@ -1,5 +1,16 @@
 .wrapper {
-  margin: 10rem 5rem 0rem 5rem;
+  margin: 10rem 10% 3rem 10%;
   justify-content: center;
   min-height: 80vh;
+
+  .page-header{
+    h1{
+      font-size: 3rem;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    hr{
+      margin-bottom: 2rem;
+    }
+  }
 }

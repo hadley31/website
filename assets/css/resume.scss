@@ -30,4 +30,8 @@
         font-style: italic;
         color: #333;
     }
+
+    .dl-resume-button{
+        @include button;
+    }
 }

@@ -3,10 +3,7 @@
 
 $primary-color: #6a7a8f;
 $secondary-color: #031926;
-$default-font: "Helvetica Neue",
-Helvetica,
-Arial,
-sans-serif;
+$default-font: 'Oswald', sans-serif;
 
 $text-color: white;
 $nav-text-color: #888;
@@ -28,32 +25,54 @@ $tablet: 700px;
 $tablet-small: 620px;
 $mobile: 550px;
 
-\:root {
-  font-size: 10px;
+:root {
+  font-size: 16px;
 
   @media (max-width: $desktop) {
-    font-size: 9px;
+    font-size: 14px;
   }
 
   @media (max-width: $laptop) {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   @media (max-width: $tablet-big) {
-    font-size: 9px;
+    font-size: 11px;
   }
 
   @media (max-width: $tablet) {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   @media (max-width: $tablet-small) {
-    font-size: 10px;
+    font-size: 9px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 12px;
   }
 }
 
 .text-center {
   text-align: center;
+}
+
+@mixin button{
+  display: block;
+  width: 115px;
+  height: 25px;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.5rem;
+  background-color: rgb(59, 72, 92);
+
+  &:hover{
+    
+  }
 }
 
 @import "default.scss";
@@ -63,3 +82,4 @@ $mobile: 550px;
 @import "resume.scss";
 @import "project-list.scss";
 @import "project-card.scss";
+@import "project.scss";
