@@ -57,29 +57,13 @@ $mobile: 550px;
   text-align: center;
 }
 
-@mixin button{
-  display: block;
-  width: 115px;
-  height: 25px;
-  text-decoration: none;
-  padding: 10px;
-  text-align: center;
-  border-radius: 5px;
-  color: white;
-  font-weight: bold;
-  line-height: 1.5rem;
-  background-color: rgb(59, 72, 92);
-
-  &:hover{
-    
-  }
-}
-
-@import "default.scss";
-@import "navigation.scss";
-@import "footer.scss";
-@import "home.scss";
-@import "resume.scss";
-@import "project-list.scss";
-@import "project-card.scss";
-@import "project.scss";
+@import 'mixins.scss';
+@import 'navigation.scss';
+@import 'header.scss';
+@import 'footer.scss';
+@import 'default.scss';
+@import 'home.scss';
+@import 'resume.scss';
+@import 'project-list.scss';
+@import 'project-card.scss';
+@import 'project.scss';

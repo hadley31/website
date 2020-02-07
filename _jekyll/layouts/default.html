@@ -4,25 +4,21 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    {% include head.html %}
+    <title>{{ page.title }} - Nicholas Hadley</title>
+  </head>
 
-<head>
-  {% include head.html %}
-  <title>{{ page.title }} - Nicholas Hadley</title>
-</head>
-
-<body>
-  {% include navigation.html %}
-  <main class="wrapper">
-    {% if page.title %}
-    <div class="page-header">
-      <h1>{{ page.title }}</h1>
-      <hr>
-    </div>
-    {% endif %}
-
-    {{ content }}
-  </main>
-  {% include footer.html %}
-</body>
-
+  <body>
+    {% include header.html %}
+    <main class="main-content">
+      {% if page.title %}
+      <div class="page-header">
+        <h1>{{ page.title }}</h1>
+        <hr />
+      </div>
+      {% endif %} {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
 </html>
