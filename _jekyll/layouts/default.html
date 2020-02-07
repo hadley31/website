@@ -13,13 +13,6 @@ layout: compress
 <body>
   {% include navigation.html %}
   <main class="wrapper">
-    {% if page.title %}
-    <div class="page-header">
-      <h1>{{ page.title }}</h1>
-      <hr>
-    </div>
-    {% endif %}
-
     {{ content }}
   </main>
   {% include footer.html %}
