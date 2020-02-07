@@ -1,37 +1,37 @@
 .resume-wrapper {
-    margin-left: 15%;
-    text-align: left;
+  margin-left: 15%;
+  text-align: left;
 
-    .resume-label {
-        font-size: 3rem;
-        font-weight: 100;
-        text-decoration: underline;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    }
+  .resume-label {
+    font-size: 3rem;
+    font-weight: 100;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
-    h3 {
-        margin: 30px 0 5px 0;
-        text-decoration: underline;
-    }
+  h3 {
+    margin: 30px 0 5px 0;
+    text-decoration: underline;
+  }
 
-    ul {
-        margin: 5px 0;
-    }
+  ul {
+    margin: 5px 0;
 
     li {
-        margin: 3px 0;
+      margin: 3px 0;
     }
+  }
 
-    p {
-        margin: 5px 0;
-    }
+  p {
+    margin: 5px 0;
+  }
 
-    .proficiency {
-        font-style: italic;
-        color: #333;
-    }
+  .proficiency {
+    font-style: italic;
+    color: #333;
+  }
 
-    .dl-resume-button{
-        @include button;
-    }
+  .dl-resume-button {
+    @include button;
+  }
 }

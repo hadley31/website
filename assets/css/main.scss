@@ -2,8 +2,9 @@
 ---
 
 $primary-color: #6a7a8f;
-$secondary-color: #031926;
+$secondary-color: #1b222c;
 $default-font: 'Oswald', sans-serif;
+$navbar-height: 5rem;
 
 $text-color: white;
 $nav-text-color: #888;
@@ -12,9 +13,10 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: $primary-color;
-  color: $text-color;
   font-family: $default-font;
+  scroll-behavior: smooth;
+  scroll-snap-type: none;
+  scroll-padding-top: $navbar-height;
 }
 
 // Device Sizes
