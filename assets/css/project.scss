@@ -1,30 +1,39 @@
 .project {
-  .project-image {
-    width: 500px;
-    height: 300px;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .project-banner {
-    position: relative;
+  background-color: #333333;
+  min-height: 90vh;
+  color: $text-color;
+  .project-header {
+    display: flex;
     width: 100%;
     height: 15rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    filter: blur(2px);
-  
-    .project-banner-overlay {
-      background-color: rgba(182, 182, 182, 0.2);
+    position: relative;
+    align-items: center;
+    .project-header-image {
       position: absolute;
-      top: 0;
-      left: 0;
       width: 100%;
       height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-clip: border-box;
+      filter: blur(8px);
+  
+      .project-header-image-overlay {
+        background-color: rgba(56, 56, 56, 0.6);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .project-header-text{
+      position: absolute;
+      font-weight: bold;
+      font-size: 5rem;
+      width: 100%;
+      text-align: center;
     }
   }
+
   .project-source-button {
     @include button;
     //background: #4e9caf;

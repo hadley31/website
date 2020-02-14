@@ -7,7 +7,8 @@ layout: default
   <h3>Education</h3>
   <p><b>Bachelor of Science in Computer Science:</b> Georgia Southern University, <b>GPA: 3.96</b></p>
   <ul>
-    <li>Maintained HOPE Scholarship August 2017 - Present</li>
+    <li>December 2020</li>
+    <li>HOPE Scholarship August 2017 - Present</li>
   </ul>
   <h3>Technical Skills</h3>
   <ul>
@@ -63,5 +64,5 @@ layout: default
   <ul>
     <li>Meet new people also interested in developer technologies and learn how to use them</li>
   </ul>
-  <a class="dl-resume-button" href="/assets/downloads/resume.pdf" download>Download</a>
+  <a class="dl-resume-button" href="/assets/downloads/resume.pdf" target="_blank">Download</a>
 </div>
