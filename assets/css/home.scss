@@ -15,8 +15,10 @@
   max-width: 100%;
 
   position: static;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  padding-top: 30rem;
 
   background-attachment: fixed;
   background-position: center;
