@@ -11,4 +11,4 @@ tags:
   - name: Club Project
 ---
 
-Nocturnal Forest is a metroidvania game developed using Unity and C#. This game was created in one semester as part of an Aurora Game Development Club project. It was created in collaboration with Tyler Hodzen and Alan Harris.
+Nocturnal Forest is a metroidvania game developed in one semester as part of an Aurora Game Development Club project. It was created in collaboration with Tyler Hodzen and Alan Harris.

@@ -1,7 +1,7 @@
 .project {
   background-color: #333333;
   min-height: 90vh;
-  color: $text-color;
+  color: $primary-text-color;
   .project-header {
     display: flex;
     width: 100%;
@@ -17,7 +17,7 @@
       background-size: cover;
       background-clip: border-box;
       filter: blur(8px);
-  
+
       .project-header-image-overlay {
         background-color: rgba(56, 56, 56, 0.6);
         position: absolute;
@@ -25,13 +25,18 @@
         height: 100%;
       }
     }
-    .project-header-text{
+    .project-header-text {
       position: absolute;
       font-weight: bold;
       font-size: 5rem;
       width: 100%;
       text-align: center;
     }
+  }
+
+  .project-main {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .project-source-button {
