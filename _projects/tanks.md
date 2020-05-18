@@ -13,4 +13,4 @@ tags:
   - name: Networking
 ---
 
-Multiplayer Tanks is an online 3D tank shooter. Play different gamemodes such as deathmatch and soccer.
+Multiplayer Tanks is an online 3D tank shooter. Currently you can only play soccer, but I plan to add more gamemodes in the future!
