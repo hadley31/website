@@ -3,15 +3,20 @@
   padding-bottom: 3rem;
 
   h1 {
-    margin-top: 0;
+    margin: 0;
     font-size: 3rem;
+    font-weight: 500;
+  }
+  hr {
+    width: 30%;
   }
 }
 
 .introduction {
-  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - #{$navbar-height});
   max-width: 100%;
 
   position: static;
@@ -23,15 +28,14 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  background-image: url('../images/mountains.jpg');
+  background-image: radial-gradient(grey, #333333);
 
-  h1 {
+  .name {
     font-size: 5rem;
-    margin: 0;
   }
-  h3 {
+  .position {
     font-size: 3rem;
-    margin: 0;
+    color: #333;
   }
 }
 

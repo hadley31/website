@@ -9,18 +9,20 @@ layout: default
     </div>
     <div class="project-header-text">{{ page.title }}</div>
   </div>
-  <h3>About</h3>
-  {{ content }}
-  {% if page.technologies %}
-  <h3>Technologies</h3>
-  <ul>
-    {% for t in page.technologies %}
-    <li>{{ t.name }}</li>
-    {% endfor %}
-  </ul>
-  {% endif %}
-  <a class="project-source-button" href="{{ page.source }}" target="_blank">View Source</a>
-  {% if page.play_now %}
-  <a class="project-play-button" href="{{ page.play_now }}" target="_blank">Play Now!</a>
-  {% endif %}
+  <div class="project-main">
+    <h3>About</h3>
+    {{ content }}
+    {% if page.technologies %}
+    <h3>Technologies</h3>
+    <ul>
+      {% for t in page.technologies %}
+      <li>{{ t.name }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <a class="project-source-button" href="{{ page.source }}" target="_blank">View Source</a>
+    {% if page.play_now %}
+    <a class="project-play-button" href="{{ page.play_now }}" target="_blank">Play Now!</a>
+    {% endif %}
+  </div>
 </div>
