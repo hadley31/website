@@ -29,14 +29,14 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  background-image: radial-gradient(grey, #333333);
+  background-image: radial-gradient(grey, $primary-grey);
 
   .landing-name {
     font-size: 5rem;
   }
   .landing-position {
     font-size: 3rem;
-    color: #333;
+    color: $primary-grey;
   }
 
   #landingArrow {
@@ -78,7 +78,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #333333;
+  background-color: $primary-grey;
 
   p {
     text-align: center;
