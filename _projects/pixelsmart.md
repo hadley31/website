@@ -10,8 +10,11 @@ tags:
   - name: Design Patterns
 collaborators:
   - name: Nicholas Hadley
+    role: Lead Developer
   - name: Alan Harris
+    role: Project Lead
   - name: Tyler Hodzen
+    role: Artist
   - name: Dallas Martin
 ---
 
