@@ -8,6 +8,11 @@ technologies:
 tags:
   - name: Object-Oriented Programming
   - name: Design Patterns
+collaborators:
+  - name: Nicholas Hadley
+  - name: Alan Harris
+  - name: Tyler Hodzen
+  - name: Dallas Martin
 ---
 
 PixelSmart is a paint application developed using Java Swing. The goal of the project was to familiarize ourselves with different object-oriented design patterns. 

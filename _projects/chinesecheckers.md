@@ -9,6 +9,8 @@ technologies:
   - name: p5.js
 tags:
   - name: Web
+collaborators:
+  - name: Nicholas Hadley
 ---
 
 A simple chinese checkers game for the browser.

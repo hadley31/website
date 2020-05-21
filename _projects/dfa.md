@@ -9,6 +9,9 @@ technologies:
 tags:
   - name: Web
   - name: Class Project
+collaborators:
+  - name: Nicholas Hadley
+  - name: Christopher Spradlin
 ---
 
-Final project for CSCI 3236. Created in collaboration with Chrisopher Spradlin.
+Final project for CSCI 3236.

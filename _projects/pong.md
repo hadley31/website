@@ -12,6 +12,8 @@ tags:
   - name: Machine Learning
   - name: Pong
   - name: Neuro-evolution
+collaborators:
+  - name: Nicholas Hadley
 ---
 
 A Pong AI that learns through the process of neuro-evolution.

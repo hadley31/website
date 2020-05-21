@@ -8,6 +8,9 @@ technologies:
   - name: Tensorflow
 tags:
   - name: Machine Learning
+collaborators:
+  - name: Nicholas Hadley
+  - name: Christopher Spradlin
 ---
 
 A Super Hexagon AI created using Python and Tensorflow

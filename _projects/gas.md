@@ -10,6 +10,8 @@ technologies:
 tags:
   - name: Mobile Development
   - name: NoSQL
+collaborators:
+  - name: Nicholas Hadley
 ---
 
 Gas App is a native mobile app designed to track and analyse your gas spending and milage.
