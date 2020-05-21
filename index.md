@@ -1,11 +1,12 @@
 ---
-title: About Me
+title: Homepage
 layout: default
 ---
 
-<section class="section introduction" id="home">
-  <div class="name">Nicholas Hadley</div>
-  <div class="position">Full Stack Software Developer</div>
+<section class="section landing" id="home">
+  <div class="landing-name">Nicholas Hadley</div>
+  <div class="landing-position">Full Stack Software Developer</div>
+  <a href="#about" id="landingArrow"></a>
 </section>
 <section class="section about" id="about">
   <img class="portrait" src="{{ '/assets/images/headshot.png' | relative_url }}" />
@@ -21,3 +22,15 @@ layout: default
   <hr>
   <p>Section Under Development.</p>
 </section>
+<script>
+  window.onscroll = updateArrow;
+  function updateArrow() {
+    let arrow = document.getElementById('landingArrow');
+    if (window.scrollY !== 0){
+      arrow.style.opacity = "0";
+    }
+    else{
+      arrow.style.opacity = "1";
+    }
+  }
+</script>
