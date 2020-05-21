@@ -28,9 +28,11 @@ layout: default
     let arrow = document.getElementById('landingArrow');
     if (window.scrollY !== 0){
       arrow.style.opacity = "0";
+      arrow.style.display = "none";
     }
     else{
       arrow.style.opacity = "1";
+      arrow.style.display = "inline";
     }
   }
 </script>
