@@ -101,24 +101,5 @@
 }
 
 .section.contact {
-  #contact-form {
-    margin: auto;
-    width: 30%;
-    min-width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 
-    #contact-form-message {
-      resize: none;
-      height: 100px;
-    }
-
-    #contact-form-name,
-    #contact-form-email,
-    #contact-form-message {
-      width: 100%;
-    }
-  }
 }
