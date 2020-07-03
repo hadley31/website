@@ -1,5 +1,6 @@
 ---
 title: DFA Visualizer
+image: ./assets/images/dfa.jpg
 source: https://github.com/hadley31/dfa-project
 significance: 3
 technologies:
