@@ -12,6 +12,9 @@ layout: default
   <div class="project-main">
     <h3>About</h3>
     {{ content }}
+
+    <!-- Technologies -->
+
     {% if page.technologies %}
     <h3>Technologies</h3>
     <ul>
@@ -19,10 +22,40 @@ layout: default
       <li>{{ t.name }}</li>
       {% endfor %}
     </ul>
+
+    <!-- Collaborators -->
+
+    <h3>Collaborators</h3>
+    <ul>
+      {% for t in page.collaborators %}
+      <li>
+        <span>{{ t.name }}</span>
+        {% if t.role %}
+        <span> - {{ t.role }}</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
     {% endif %}
+
+    <!-- Buttons -->
+
+    {% if page.source %}
     <a class="project-source-button" href="{{ page.source }}" target="_blank">View Source</a>
-    {% if page.play_now %}
-    <a class="project-play-button" href="{{ page.play_now }}" target="_blank">Play Now!</a>
     {% endif %}
+    
+
+    
+    {% if page.try %}
+    <a class="project-play-button" href="{{ page.try }}" target="_blank">Try Now!</a>
+    {% endif %}
+
+    <!-- Other Projects -->
+
+    <div class="section">
+      <h1>Other Projects</h1>
+      {% assign projects = site.projects | where_exp:"item", "item.title != page.title" %}
+      {% include project-list.html projects=projects %}
+    </div>
   </div>
 </div>

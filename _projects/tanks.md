@@ -13,7 +13,6 @@ tags:
   - name: Networking
 collaborators:
   - name: Nicholas Hadley
-  - name: Christopher Spradlin
 ---
 
 Multiplayer Tanks is an online 3D tank shooter. Currently you can only play soccer, but I plan to add more gamemodes in the future!

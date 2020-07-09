@@ -2,6 +2,7 @@
 title: DFA Visualizer
 image: /assets/images/dfa.jpg
 source: https://github.com/hadley31/dfa-project
+try: https://www.crspradlin.org/projects/dfa/
 significance: 3
 technologies:
   - name: JavaScript

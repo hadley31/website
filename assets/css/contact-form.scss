@@ -26,6 +26,10 @@
     padding: 10px;
     border: thin solid grey;
     border-radius: 5px;
+
+    &:focus {
+      outline: none;
+    }
   }
 
   #contact-form-submit-button {

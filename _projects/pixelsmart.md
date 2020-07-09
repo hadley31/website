@@ -16,6 +16,7 @@ collaborators:
   - name: Tyler Hodzen
     role: Artist
   - name: Dallas Martin
+    role: Programmer
 ---
 
 PixelSmart is a paint application developed using Java Swing. The goal of the project was to familiarize ourselves with different object-oriented design patterns. 

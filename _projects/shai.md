@@ -1,7 +1,7 @@
 ---
 title: Project Shai
 image: /assets/images/superhexagon.jpg
-source: https://www.github.com/hadley31/project-shai
+# source: https://www.github.com/hadley31/project-shai
 significance: 6
 technologies:
   - name: Python
@@ -10,7 +10,6 @@ tags:
   - name: Machine Learning
 collaborators:
   - name: Nicholas Hadley
-  - name: Christopher Spradlin
 ---
 
 A Super Hexagon AI created using Python and Tensorflow. The model was trained by capturing screenshots of the window as well as the key that was pressed at the time of each capture.
