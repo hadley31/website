@@ -1,6 +1,6 @@
 ---
 title: PixelSmart
-image: ./assets/images/pencil.png
+image: /assets/images/pencil.png
 source: https://github.com/dm06724/PixelSmart
 significance: 3
 technologies:

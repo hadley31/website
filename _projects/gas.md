@@ -1,6 +1,6 @@
 ---
 title: Gas App
-image: ./assets/images/gasapp.png
+image: /assets/images/gasapp.png
 source: https://github.com/hadley31/gas-app
 significance: 8
 technologies:

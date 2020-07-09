@@ -10,6 +10,7 @@
   border-radius: 7px;
   overflow: hidden;
   transition: all 0.2s;
+  font-size: 16px;
 
   > a {
     text-decoration: none;
@@ -43,10 +44,14 @@
     box-shadow: 2px 2px 10px black;
   }
 
+  p {
+    max-height: 150px;
+  }
+
   h3,
   p {
     margin-left: 1rem;
     margin-right: 1rem;
-    text-overflow: ellipsis;
+    overflow: hidden;
   }
 }

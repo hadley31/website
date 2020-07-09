@@ -1,6 +1,6 @@
 ---
 title: Multiplayer Tanks
-image: ./assets/images/tanks.png
+image: /assets/images/tanks.png
 source: https://www.github.com/hadley31/multiplayer-tanks
 significance: 10
 technologies:

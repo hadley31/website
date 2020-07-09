@@ -1,5 +1,11 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
-<link rel="shortcut icon" href="{{ assets/images/favicon.png | relative_url }}" type="image/x-icon">
+<link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/x-icon">
+
+<meta property="og:type" content="profile" />
+<meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
+<meta property="og:description" content="{{ page.description }}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:image" content="{{ site.url }}{{ page.image }}" />

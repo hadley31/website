@@ -1,6 +1,6 @@
 ---
 title: Gnomebot
-image: ./assets/images/discord.jpg
+image: /assets/images/discord.jpg
 source: https://www.github.com/hadley31/gnomebot
 significance: 5
 technologies:
@@ -14,4 +14,4 @@ collaborators:
  - name: Nicholas Hadley
 ---
 
-Gnomebot is a discord bot I developed in my sparetime using Node.js.
+Gnomebot is a discord bot I developed in my sparetime using Node.js. It started as a joke with some friends and slowly became fleshed out with features.

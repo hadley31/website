@@ -1,6 +1,6 @@
 ---
 title: Chinese Checkers
-image: ./assets/images/chinesecheckers.png
+image: /assets/images/chinesecheckers.png
 source: https://www.github.com/hadley31/chinese-checkers
 play_now: https://hadley31.github.io/chinese-checkers
 significance: 3

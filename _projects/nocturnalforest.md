@@ -1,6 +1,6 @@
 ---
 title: Nocturnal Forest
-image: ./assets/images/nocturnalforest.png
+image: /assets/images/nocturnalforest.png
 source: https://www.github.com/hadley31/nocturnal-forest
 significance: 5
 technologies:

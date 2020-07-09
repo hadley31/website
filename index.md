@@ -1,6 +1,7 @@
 ---
 title: Homepage
 layout: default
+image: /assets/images/headshot.png
 ---
 
 <section class="section landing" id="home">
@@ -13,21 +14,21 @@ layout: default
   <p>Hello! My name is Nicholas Hadley and I am a Full Stack Software Developer from Savannah, Georgia. I am currently pursuing my Bachelor's Degree at Georgia Southern University.</p>
 </section>
 <section class="section portfolio" id="portfolio">
-  <h1 class="text-center">Projects</h1>
+  <h1>Projects</h1>
   <hr>
   {% include project-list.html projects=site.projects %}
 </section>
 <section class="section resume" id="resume">
   <h1>Resume</h1>
   <hr>
-  <p>Section Under Development.</p>
+  <p>Interactive Section in the Works!</p>
 </section>
 <section class="section contact" id="contact">
   <h1>Contact</h1>
   <hr>
   {% include contact-form.html %}
 </section>
-<script>
+<script defer>
 window.addEventListener('scroll', () => {
   const arrow = document.getElementById('landingArrow');
   if (window.scrollY !== 0) {

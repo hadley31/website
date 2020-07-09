@@ -11,52 +11,92 @@
   hr {
     width: 40%;
     max-width: 550px;
-  }
-}
-
-.section.landing {
-  padding: 0;
-  margin: 0;
-  width: 100vw;
-  height: calc(100vh - #{$navbar-height});
-  max-width: 100%;
-
-  position: static;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-image: radial-gradient(grey, $primary-grey);
-
-  .landing-name {
-    font-size: 5rem;
-  }
-  .landing-position {
-    font-size: 3rem;
-    color: $primary-grey;
+    border-bottom: none;
+    border-top-color: darkgrey;
   }
 
-  #landingArrow {
-    $arrow-size: 30px;
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    padding: 3px;
-    position: absolute;
-    bottom: $arrow-size;
-    left: 50%;
-    margin-left: calc(#{$arrow-size} / -2);
-    width: $arrow-size;
-    height: $arrow-size;
-    transform: rotate(45deg);
-    animation-name: landingArrowAnimation;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    transition: opacity 0.5s;
+  &.landing {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: calc(100vh - #{$navbar-height});
+    max-width: 100%;
+
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: radial-gradient(grey, $primary-grey);
+
+    .landing-name {
+      font-size: 5rem;
+    }
+    .landing-position {
+      font-size: 3rem;
+      color: $primary-grey;
+    }
+
+    #landingArrow {
+      $arrow-size: 30px;
+      border: solid black;
+      border-width: 0 3px 3px 0;
+      padding: 3px;
+      position: absolute;
+      bottom: $arrow-size;
+      left: 50%;
+      margin-left: calc(#{$arrow-size} / -2);
+      width: $arrow-size;
+      height: $arrow-size;
+      transform: rotate(45deg);
+      animation-name: landingArrowAnimation;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      transition: opacity 0.5s;
+    }
+  }
+
+  &.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: $primary-grey;
+
+    p {
+      text-align: center;
+      color: #a1a1a1;
+      font-size: 2.1rem;
+      width: 50%;
+      max-width: 700px;
+      min-width: 300px;
+    }
+
+    .portrait {
+      width: 300px;
+      height: auto;
+      border-radius: 20%;
+      box-shadow: 0px 0px 15px #555;
+    }
+  }
+
+  &.portfolio {
+    background-color: #999999;
+  }
+
+  &.resume {
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  &.contact {
+    background-color: #f1f1f1;
   }
 }
 
@@ -70,36 +110,4 @@
   100% {
     transform: translateY(0%) rotate(45deg);
   }
-}
-
-.section.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: $primary-grey;
-
-  p {
-    text-align: center;
-    color: #a1a1a1;
-    font-size: 2.1rem;
-    width: 50%;
-    max-width: 700px;
-    min-width: 300px;
-  }
-
-  .portrait {
-    width: 300px;
-    height: auto;
-    border-radius: 20%;
-  }
-}
-
-.section.resume {
-  text-align: center;
-}
-
-.section.contact {
-
 }

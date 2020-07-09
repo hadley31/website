@@ -8,54 +8,32 @@
   <button id="contact-form-submit-button">Send</button>
   <p id="contact-form-status"></p>
 </form>
-<script>
-  window.addEventListener('DOMContentLoaded', () => {
-    let form = document.getElementById('contact-form');
-    let submitButton = document.getElementById('contact-form-submit-button');
-    let formStatus = document.getElementById('contact-form-status');
+<script defer>
+  let form = document.getElementById('contact-form');
+  let submitButton = document.getElementById('contact-form-submit-button');
+  let formStatus = document.getElementById('contact-form-status');
 
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
 
-      const action = 'https://formspree.io/mbjzdblw';
-      const method = 'POST';
+    let data = new FormData(form);
 
-      let data = new FormData(form);
-
-      try {
-        const res = await makeRequest(method, action, data);
-        form.reset();
-        submitButton.disabled = true;
-        formStatus.innerHTML = 'Email sent successfully!';
-      } catch (err) {
-        formStatus.innerHTML = 'Oh no! Something went wrong.';
-      }
+    const res = await fetch('https://formspree.io/mbjzdblw', {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+      },
+      body: data,
     });
+
+    console.log(res);
+
+    if (res.ok) {
+      form.reset();
+      submitButton.disabled = true;
+      formStatus.innerHTML = 'Email sent successfully! Thanks!';
+    } else {
+      formStatus.innerHTML = 'Oh no! Something went wrong :(';
+    }
   });
-
-  function makeRequest(method, url, data) {
-    return new Promise(function (resolve, reject) {
-      const xhr = new XMLHttpRequest();
-      xhr.open(method, url);
-      xhr.setRequestHeader('Accept', 'application/json');
-      xhr.onload = (e) => {
-        console.log(this.status);
-        if (xhr.status >= 200 && xhr.status < 300) {
-          resolve(xhr.response);
-        } else {
-          reject({
-            status: xhr.status,
-            statusText: xhr.statusText,
-          });
-        }
-      };
-      xhr.onerror = (e) => {
-        reject({
-          status: this.status,
-          statusText: xhr.statusText,
-        });
-      };
-      xhr.send(data);
-    });
-  }
 </script>
