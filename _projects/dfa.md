@@ -1,5 +1,6 @@
 ---
 title: DFA Visualizer
+description: Final project for CSCI 3236. A web application which allows you to create visualizations of Deterministic Finite Automata.
 image: /assets/images/dfa.jpg
 source: https://github.com/hadley31/dfa-project
 try: https://www.crspradlin.org/projects/dfa/
@@ -14,5 +15,3 @@ collaborators:
   - name: Nicholas Hadley
   - name: Christopher Spradlin
 ---
-
-Final project for CSCI 3236. A web application to wisualize Deterministic Finite Automata created using p5.js.

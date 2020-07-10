@@ -1,5 +1,6 @@
 ---
 title: Chinese Checkers
+description: A simple chinese checkers game for the browser.
 image: /assets/images/chinesecheckers.png
 source: https://www.github.com/hadley31/chinese-checkers
 try: https://hadley31.github.io/chinese-checkers
@@ -12,5 +13,3 @@ tags:
 collaborators:
   - name: Nicholas Hadley
 ---
-
-A simple chinese checkers game for the browser.

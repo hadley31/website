@@ -1,5 +1,6 @@
 ---
 title: Machine Learning Pong
+description: A Pong AI that learns through the process of neuro-evolution.
 image: /assets/images/pong.png
 source: https://github.com/hadley31/pong-neuro-evolution
 significance: 3
@@ -15,5 +16,3 @@ tags:
 collaborators:
   - name: Nicholas Hadley
 ---
-
-A Pong AI that learns through the process of neuro-evolution.

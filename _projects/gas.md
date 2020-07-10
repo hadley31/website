@@ -1,5 +1,6 @@
 ---
 title: Gas App
+description: Gas App is a native mobile app designed to track and analyse your gas spending and milage.
 image: /assets/images/gasapp.png
 source: https://github.com/hadley31/gas-app
 significance: 8
@@ -13,5 +14,3 @@ tags:
 collaborators:
   - name: Nicholas Hadley
 ---
-
-Gas App is a native mobile app designed to track and analyse your gas spending and milage.

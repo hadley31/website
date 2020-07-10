@@ -1,5 +1,6 @@
 ---
 title: Nocturnal Forest
+description: Nocturnal Forest is a metroidvania game developed in one semester as part of an Aurora Game Development Club project.
 image: /assets/images/nocturnalforest.png
 source: https://www.github.com/hadley31/nocturnal-forest
 significance: 5
@@ -17,5 +18,3 @@ collaborators:
   - name: Alan Harris
     role: Project Lead, Music Composer
 ---
-
-Nocturnal Forest is a metroidvania game developed in one semester as part of an Aurora Game Development Club project.
