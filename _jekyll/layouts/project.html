@@ -10,13 +10,13 @@ layout: default
     <div class="project-header-text">{{ page.title }}</div>
   </div>
   <div class="project-main">
-    <h3>About</h3>
+    <h2>About</h2>
     {{ page.description }}
 
     <!-- Technologies -->
 
     {% if page.technologies %}
-    <h3>Technologies</h3>
+    <h2>Technologies</h2>
     <ul>
       {% for t in page.technologies %}
       <li>{{ t.name }}</li>
@@ -25,13 +25,16 @@ layout: default
 
     <!-- Collaborators -->
 
-    <h3>Collaborators</h3>
+    <h2>Collaborators</h2>
     <ul>
       {% for t in page.collaborators %}
       <li>
+        <!-- Name -->
         <span>{{ t.name }}</span>
+
+        <!-- Role -->
         {% if t.role %}
-        <span> - {{ t.role }}</span>
+        <span class="collaborator-role"> - {{ t.role }}</span>
         {% endif %}
       </li>
       {% endfor %}

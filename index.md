@@ -2,7 +2,7 @@
 title: Homepage
 layout: default
 image: /assets/images/headshot.png
-description: Hello! My name is Nicholas Hadley and I am a Full Stack Software Developer from Savannah, Georgia. I am currently pursuing my Bachelor's Degree at Georgia Southern University.
+description: Hello! My name is Nicholas Hadley and I am a Full Stack Software Developer from Savannah, Georgia. I am currently pursuing my Bachelor's Degree at Georgia Southern University in Computer Science.
 ---
 
 <!-- Landing Section -->
@@ -17,7 +17,7 @@ description: Hello! My name is Nicholas Hadley and I am a Full Stack Software De
 
 <section class="section about" id="about">
   <img class="portrait" src="{{ '/assets/images/headshot.png' | relative_url }}" />
-  <p>Hello! My name is Nicholas Hadley and I am a Full Stack Software Developer from Savannah, Georgia. I am currently pursuing my Bachelor's Degree at Georgia Southern University.</p>
+  <p>Hello! My name is Nicholas Hadley and I am a Full Stack Software Developer from Savannah, Georgia. I am currently pursuing my Bachelor's Degree at Georgia Southern University in Computer Science.</p>
 </section>
 
 <!-- Projects -->

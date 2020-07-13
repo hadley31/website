@@ -35,8 +35,9 @@
   }
 
   .project-main {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.3rem;
   }
 
   .project-source-button {
@@ -47,4 +48,8 @@
     @include button;
     //background-color: #4e9caf;
   }
+}
+
+.collaborator-role {
+  color: grey
 }

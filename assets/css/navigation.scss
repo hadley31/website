@@ -21,6 +21,7 @@
       text-decoration: none;
       color: $nav-text-color;
       transition: color 0.2s ease-out;
+      -webkit-tap-highlight-color: transparent;
 
       &:hover {
         color: $primary-text-color;
