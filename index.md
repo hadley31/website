@@ -34,6 +34,7 @@ description: Hello! My name is Nicholas Hadley and I am a Full Stack Software De
   <h1>Resume</h1>
   <hr>
   <p>Interactive Section in the Works!</p>
+  <a class="button" href="{{ '/assets/resume.pdf' | relative_url }}">Download</a>
 </section>
 
 <!-- Contact -->
