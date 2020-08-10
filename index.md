@@ -48,15 +48,8 @@ description: Hello! My name is Nicholas Hadley and I am a Full Stack Software De
 <!-- Landing Section Arrow Script -->
 
 <script defer>
-window.addEventListener('scroll', () => {
   const arrow = document.getElementById('landingArrow');
-  if (window.scrollY !== 0) {
-    arrow.style.opacity = '0';
-    arrow.style.pointerEvents = 'none';
-  }
-  else {
-    arrow.style.opacity = '1';
-    arrow.style.pointerEvents = 'all';
-  }
-});
+  window.addEventListener('scroll', () => {
+    arrow.classList.toggle("hidden", window.scrollY !== 0);
+  });
 </script>
