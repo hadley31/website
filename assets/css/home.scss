@@ -60,6 +60,11 @@
       animation-iteration-count: infinite;
       animation-timing-function: ease-in-out;
       transition: opacity 0.5s;
+
+      &.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
     }
   }
 
