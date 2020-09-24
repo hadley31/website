@@ -21,7 +21,7 @@
     padding: 0;
     margin: 0;
     width: 100vw;
-    height: calc(100vh - #{$navbar-height});
+    height: calc(100vh - #{$header-height});
     max-width: 100%;
 
     position: static;
@@ -37,10 +37,19 @@
 
     .landing-name {
       font-size: 5rem;
+
+      @media (max-width: $mobile) {
+        font-size: 4rem;
+      }
     }
     .landing-position {
       font-size: 3rem;
       color: $primary-grey;
+
+      @media (max-width: $mobile) {
+        font-size: 2.6rem;
+        padding: 0 10px;
+      }
     }
 
     #landingArrow {
