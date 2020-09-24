@@ -2,6 +2,8 @@
   background-color: $primary-grey;
   min-height: 90vh;
   color: $primary-text-color;
+  display: flex;
+  flex-direction: column;
   .project-header {
     display: flex;
     width: 100%;
@@ -35,12 +37,24 @@
   }
 
   .project-main {
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 1.3rem;
+    .project-details {
+      margin: auto;
+      width: 80%;
+      max-width: 70ch;
+      font-size: 1.3rem;
+    }
   }
-}
 
-.collaborator-role {
-  color: grey
+  h2 {
+    margin-bottom: 5px;
+    color: grey;
+  }
+
+  ul {
+    margin-top: 5px;
+  }
+
+  .collaborator-role {
+    color: grey;
+  }
 }
