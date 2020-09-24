@@ -4,7 +4,7 @@ description: Multiplayer Tanks is an online 3D tank shooter. Currently you can o
 image: /assets/images/projects/tanks.png
 source: https://www.github.com/hadley31/multiplayer-tanks
 actions:
-  - text: Try Now!
+  - text: Play Now!
     link: https://tanks.nicholashadley.com/
 significance: 10
 technologies:

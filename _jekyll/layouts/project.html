@@ -10,52 +10,59 @@ layout: default
     <div class="project-header-text">{{ page.title }}</div>
   </div>
   <div class="project-main">
-    <h2>About</h2>
-    {{ page.description }}
+    <section class="project-details">
+      <h2>About</h2>
+      {{ page.description }}
 
-    <!-- Technologies -->
+      <!-- Technologies -->
 
-    {% if page.technologies %}
-    <h2>Technologies</h2>
-    <ul>
-      {% for t in page.technologies %}
-      <li>{{ t.name }}</li>
+      {% if page.technologies %}
+      <h2>Technologies</h2>
+      <ul>
+        {% for t in page.technologies %}
+        <li>{{ t.name }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      <!-- Collaborators -->
+
+      {% if page.collaborators %}
+      <h2>Collaborators</h2>
+      <ul>
+        {% for t in page.collaborators %}
+        <li>
+          <!-- Name -->
+          <span>{{ t.name }}</span>
+
+          <!-- Role -->
+          {% if t.role %}
+          <span class="collaborator-role"> - {{ t.role }}</span>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      <!-- Actions -->
+
+      <h2>Actions</h2>
+
+      {% if page.source %}
+        <a class="button" href="{{ page.source }}" target="_blank">View Source</a>
+      {% endif %}
+      
+      {% for action in page.actions %}
+        <a class="button" href="{{ action.link }}" target="_blank">{{ action.text }}</a>
       {% endfor %}
-    </ul>
-
-    <!-- Collaborators -->
-
-    <h2>Collaborators</h2>
-    <ul>
-      {% for t in page.collaborators %}
-      <li>
-        <!-- Name -->
-        <span>{{ t.name }}</span>
-
-        <!-- Role -->
-        {% if t.role %}
-        <span class="collaborator-role"> - {{ t.role }}</span>
-        {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-    {% endif %}
-
-    <!-- Actions -->
-
-    {% if page.source %}
-      <a class="button" href="{{ page.source }}" target="_blank">View Source</a>
-    {% endif %} 
-    
-    {% for action in page.actions %}
-      <a class="button" href="{{ action.link }}" target="_blank">{{ action.text }}</a>
-    {% endfor %}
+    </section>
 
     <!-- Other Projects -->
 
-    <div class="section">
+    <section class="section">
       <h1>Other Projects</h1>
-      {% assign projects = site.projects | where_exp:"item", "item.title != page.title" %} {% include project-list.html projects=projects %}
-    </div>
+      {% assign projects = site.projects | where_exp:"item", "item.title != page.title" %}
+      {% include project-list.html projects=projects %}
+    </section>
   </div>
 </div>

@@ -4,7 +4,7 @@ description: Nocturnal Forest is a metroidvania game developed in one semester a
 image: /assets/images/projects/nocturnalforest.png
 source: https://www.github.com/hadley31/nocturnal-forest
 actions:
-  - text: Try Now!
+  - text: Play Now!
     link: https://hadley31.github.io/nocturnal-forest
 significance: 5
 technologies:

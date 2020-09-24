@@ -37,10 +37,12 @@
   }
 
   .project-main {
-    margin: auto;
-    width: 80%;
-    max-width: 70ch;
-    font-size: 1.3rem;
+    .project-details {
+      margin: auto;
+      width: 80%;
+      max-width: 70ch;
+      font-size: 1.3rem;
+    }
   }
 
   h2 {
@@ -48,7 +50,7 @@
     color: grey;
   }
 
-  ul{
+  ul {
     margin-top: 5px;
   }
 

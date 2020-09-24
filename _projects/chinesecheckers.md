@@ -5,7 +5,7 @@ image: /assets/images/projects/chinesecheckers.png
 header-image: /assets/images/projects/header/chinesecheckers.png
 source: https://www.github.com/hadley31/chinese-checkers
 actions:
-  - text: Try Now!
+  - text: Play Now!
     link: https://hadley31.github.io/chinese-checkers
 significance: 3
 technologies:
