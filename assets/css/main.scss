@@ -7,10 +7,11 @@ html,
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
   font-family: $default-font;
   scroll-behavior: smooth;
   scroll-snap-type: none;
-  scroll-padding-top: $navbar-height;
+  scroll-padding-top: $header-height;
 }
 
 // Device Sizes
