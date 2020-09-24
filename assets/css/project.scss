@@ -10,6 +10,8 @@
     height: 15rem;
     position: relative;
     align-items: center;
+    overflow: hidden;
+
     .project-header-image {
       position: absolute;
       width: 100%;
@@ -21,7 +23,8 @@
       filter: blur(8px);
 
       .project-header-image-overlay {
-        background-color: rgba(56, 56, 56, 0.6);
+        background-color: #38383899;
+        box-shadow: inset 0 0 2px 2px black;
         position: absolute;
         width: 100%;
         height: 100%;
