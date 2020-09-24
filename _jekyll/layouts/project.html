@@ -41,24 +41,21 @@ layout: default
     </ul>
     {% endif %}
 
-    <!-- Buttons -->
+    <!-- Actions -->
 
     {% if page.source %}
-    <a class="button" href="{{ page.source }}" target="_blank">View Source</a>
-    {% endif %}
+      <a class="button" href="{{ page.source }}" target="_blank">View Source</a>
+    {% endif %} 
     
-
-    
-    {% if page.try %}
-    <a class="button" href="{{ page.try }}" target="_blank">Try Now!</a>
-    {% endif %}
+    {% for action in page.actions %}
+      <a class="button" href="{{ action.link }}" target="_blank">{{ action.text }}</a>
+    {% endfor %}
 
     <!-- Other Projects -->
 
     <div class="section">
       <h1>Other Projects</h1>
-      {% assign projects = site.projects | where_exp:"item", "item.title != page.title" %}
-      {% include project-list.html projects=projects %}
+      {% assign projects = site.projects | where_exp:"item", "item.title != page.title" %} {% include project-list.html projects=projects %}
     </div>
   </div>
 </div>
