@@ -1,9 +1,9 @@
-<div class="project-card">
-  <a href="{{ include.project.url | remove: '.html' }}">
+<a class="project-card-wrapper" href="{{ include.project.url | remove: '.html' }}">
+  <div class="project-card">
     <div class="project-image-parent">
       <div class="project-image" style="background-image: url({{ include.project.image | relative_url }})"></div>
     </div>
     <h3>{{ include.project.title }}</h3>
     <p>{{ include.project.description }}</p>
-  </a>
-</div>
+  </div>
+</a>
