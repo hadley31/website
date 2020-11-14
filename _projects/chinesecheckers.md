@@ -2,7 +2,6 @@
 title: Chinese Checkers
 description: A simple chinese checkers game for the browser.
 image: /assets/images/projects/chinesecheckers.png
-header-image: /assets/images/projects/header/chinesecheckers.png
 source: https://www.github.com/hadley31/chinese-checkers
 actions:
   - text: Play Now!
