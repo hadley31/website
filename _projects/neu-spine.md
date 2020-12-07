@@ -1,7 +1,7 @@
 ---
-title: Ab-Inforcer II
+title: NEU-SPINE II
 description: Software Engineering Senior Capstone Project
-image: /assets/images/projects/ab-inforcer-ii.png
+image: /assets/images/projects/neu-spine.jpg
 actions:
 - text: More Information
   link: https://www.leebrandon.com/product/ab-inforcer-ii-coming-soon/
@@ -10,7 +10,7 @@ technologies:
   - name: React Native
 tags:
   - name: Mobile Application
-  - name: Hardware (Bluetooth Connection)
+  - name: Hardware (Bluetooth LE)
 collaborators:
   - name: Nicholas Hadley
     role: Team Lead
