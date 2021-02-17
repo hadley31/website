@@ -7,7 +7,7 @@ description: Hello! My name is Nicholas Hadley and I am a Full Stack Software De
 
 <!-- Landing Section -->
 
-<section class="section landing sticky" id="home">
+<section class="section landing" id="home">
   <div class="landing-name">Nicholas Hadley</div>
   <div class="landing-position">Full Stack Software Developer</div>
   <a href="#about" id="landingArrow"></a>
@@ -15,14 +15,14 @@ description: Hello! My name is Nicholas Hadley and I am a Full Stack Software De
 
 <!-- About Summary -->
 
-<section class="section about sticky" id="about">
+<section class="section about" id="about">
   <img class="portrait" src="{{ '/assets/images/headshot.png' | relative_url }}" />
   <p>Hello! My name is Nicholas Hadley and I am a Full Stack Software Developer from Savannah, Georgia. I am currently pursuing my Bachelor's Degree at Georgia Southern University in Computer Science.</p>
 </section>
 
 <!-- Projects -->
 
-<section class="section portfolio not-sticky" id="portfolio">
+<section class="section portfolio" id="portfolio">
   <h1>Projects</h1>
   <hr>
   {% include project-list.html projects=site.projects %}
@@ -30,7 +30,7 @@ description: Hello! My name is Nicholas Hadley and I am a Full Stack Software De
 
 <!-- Resume -->
 
-<section class="section resume not-sticky" id="resume">
+<section class="section resume" id="resume">
   <h1>Resume</h1>
   <hr>
   <p>Interactive Section in the Works!</p>
@@ -39,7 +39,7 @@ description: Hello! My name is Nicholas Hadley and I am a Full Stack Software De
 
 <!-- Contact -->
 
-<section class="section contact not-sticky" id="contact">
+<section class="section contact" id="contact">
   <h1>Contact</h1>
   <hr>
   {% include contact-form.html %}
