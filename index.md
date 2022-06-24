@@ -17,7 +17,7 @@ description: Hello! My name is Nicholas Hadley and I am a Full Stack Software De
 
 <section class="section about" id="about">
   <img class="portrait" src="{{ '/assets/images/headshot.png' | relative_url }}" />
-  <p>Hello! My name is Nicholas Hadley and I am a Full Stack Software Developer from Savannah, Georgia. I am currently pursuing my Bachelor's Degree at Georgia Southern University in Computer Science.</p>
+  <p>Hello! My name is Nicholas Hadley and I am a Full Stack Software Developer currently residing in Richmond, VA. In the past, I have worked for General Dynamics Mission Systems, and currently work for Capital One. I enjoy using technologies like Python, Node.js, and C#, Vue.js, Flutter, Unity, and many more. Check out some of my projects below. Thanks for stopping by!</p>
 </section>
 
 <!-- Projects -->
@@ -33,7 +33,6 @@ description: Hello! My name is Nicholas Hadley and I am a Full Stack Software De
 <section class="section resume" id="resume">
   <h1>Resume</h1>
   <hr>
-  <p>Interactive Section in the Works!</p>
   <a class="button" href="{{ '/assets/resume.pdf' | relative_url }}">Download</a>
 </section>
 

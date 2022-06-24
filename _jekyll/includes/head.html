@@ -5,8 +5,19 @@
 <link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/x-icon">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<!-- Search Engine Optimization - Open Graph Tags -->
 <meta property="og:type" content="profile" />
 <meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
 <meta property="og:description" content="{{ page.description }}" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ4CZBHS9H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FZ4CZBHS9H');
+</script>

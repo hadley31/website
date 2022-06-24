@@ -15,9 +15,9 @@ tags:
   - name: Club Project
 collaborators:
   - name: Nicholas Hadley
-    role: Lead Programmer
+    role: Programmer
   - name: Tyler Hodzen
     role: Artist
   - name: Alan Harris
-    role: Project Lead, Music Composer
+    role: Level Designer, Music Composer
 ---
